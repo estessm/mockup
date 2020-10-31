@@ -12,20 +12,24 @@
 /* Style the links inside Header */
 header {
   background-color: rgb(44, 154, 183);
-  height: 173px;
+  height: 191px;
 }
+
 header h1 {
   color: white;
+  position: absolute;
   left: 119.662px;
-  top: 45.926px;
+  top: 35.926px;
   font-size: 33.8148px;
   font-family: sans-serif;
-  transform: scaleX(1.01423);"
+  transform: scaleX(1.01423);
 }
+
 header h2 {
   color: white;
+  position: absolute;
   left: 119.662px;
-  top: 91.179px;
+  top: 100.179px;
   font-size: 17.801px;
   font-family: sans-serif;
   transform: scaleX(0.999772);
@@ -37,19 +41,26 @@ header h2 {
 nav li {
   padding: 0 5px 0 5px;
   position: relative;
+  left: 95px;
+  loadingBar-end-offset: 17px;
 }
 
-nav li:before{
-    content: " / ";
-    position: absolute;
-    right: 0;
-    top : 15px;
+nav li a:after{
+  content: " / ";
+  position: absolute;
+  right: 0;
+  top : 15px;
+}
+
+nav li:last-child a:after{
+    display: none;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  height: 50px;
   overflow: hidden;
   background-color: rgb(235, 235, 235);
 }
