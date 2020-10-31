@@ -1,0 +1,72 @@
+.content-box {
+        height: 5em;
+        width: 5em;
+        padding: 4em;
+        border: 1em solid;
+        margin: 1em;
+        float: left;
+}
+
+
+
+/* Style the links inside Header */
+header {
+  background-color: rgb(44, 154, 183);
+  height: 173px;
+}
+header h1 {
+  color: white;
+  left: 119.662px;
+  top: 45.926px;
+  font-size: 33.8148px;
+  font-family: sans-serif;
+  transform: scaleX(1.01423);"
+}
+header h2 {
+  color: white;
+  left: 119.662px;
+  top: 91.179px;
+  font-size: 17.801px;
+  font-family: sans-serif;
+  transform: scaleX(0.999772);
+}
+
+
+
+/* Style the links inside the navigation bar */
+nav li {
+  padding: 0 5px 0 5px;
+  position: relative;
+}
+
+nav li:before{
+    content: " / ";
+    position: absolute;
+    right: 0;
+    top : 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(235, 235, 235);
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
