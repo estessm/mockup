@@ -35,6 +35,13 @@ header h2 {
   transform: scaleX(0.999772);
 }
 
+.header-img {
+  width: 100%;
+  height: 192px;
+  background: url(https://library.startlearninglabs.uw.edu/HTML100/04-mockup/banner-image.jpg);
+  background-size: cover;
+}
+
 
 
 /* Style the links inside the navigation bar */
