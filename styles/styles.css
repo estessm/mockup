@@ -82,10 +82,33 @@ nav li a:hover {
 }
 
 
-# content-box {
-    display: flex;
-    justify-content: space-around
-    }
+.content-box-1 {
+        height: auto;
+        width: 60%;
+        padding: 2em;
+        border: 3px solid;
+        margin: 1px;
+        float: left;
+}
+#border-box-1 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+}
+
+.content-box-2 {
+        height: auto;
+        width: 32%;
+        padding: 2em;
+        border: 3px solid;
+        margin: 1px;
+        float: left;
+}
+#border-box-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end
+}
 
 
 
