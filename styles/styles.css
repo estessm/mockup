@@ -8,21 +8,19 @@ header {
 header h1 {
   color: white;
   position: absolute;
-  left: 119.662px;
-  top: 35.926px;
+  left: 10rem;
+  top: 3rem;
   font-size: 33.8148px;
   font-family: sans-serif;
-  transform: scaleX(1.01423);
 }
 
 header h2 {
   color: white;
   position: absolute;
-  left: 119.662px;
-  top: 100.179px;
+  left: 10rem;
+  top: 8rem;
   font-size: 17.801px;
   font-family: sans-serif;
-  transform: scaleX(0.999772);
 }
 
 .header-img {
@@ -38,8 +36,7 @@ header h2 {
 nav li {
   padding: 0 5px 0 5px;
   position: relative;
-  left: 95px;
-  loadingBar-end-offset: 17px;
+  left: 122px;
 }
 
 nav li a:after{
@@ -80,7 +77,8 @@ nav li a:hover {
 }
 
 main {
-  width: 71rem;
+  width: 80%;
+  min-height: auto;
   margin: 2rem auto;
   border: 1px solid red;
   overflow: hidden
@@ -100,10 +98,30 @@ main {
   background-color: #F5CF8E;
 }
 
+.left article {
+  padding: 1rem;
+  border: 3px dashed red;
+  margin: 1.5rem 0 1rem;
+  box-sizing: border-box;
+}
+
+.right article {
+  padding: 1rem;
+  border: 3px dashed red;
+  margin: 1.5rem 0 1rem;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
 footer {
   clear: both;
-  height: 200px;
-  background-color: #D6E9FE;
+  height: 24rem;
+  background-color: #525659;
 }
 
 
