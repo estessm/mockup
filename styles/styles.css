@@ -1,6 +1,4 @@
 
-
-
 /* Style the links inside Header */
 header {
   background-color: rgb(44, 154, 183);
@@ -81,15 +79,49 @@ nav li a:hover {
   background-color: #111;
 }
 
-#wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    width:84rem;
+main {
+  width: 71rem;
+  margin: 2rem auto;
+  border: 1px solid red;
+  overflow: hidden
 }
 
 .left {
+  float: left;
+  width: 60%;
+  height: auto;
+  background-color: #F09A9D;
+}
+
+.right {
+  float: right;
+  width: 35%;
+  height: auto;
+  background-color: #F5CF8E;
+}
+
+footer {
+  clear: both;
+  height: 200px;
+  background-color: #D6E9FE;
+}
+
+
+}
+/*.main {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+/*#wrapper {
+    margin: 0 auto;
+    width:80%;
+}*/
+
+/*.left {
         height: auto;
-        width: 50%;
+        width: 90%;
         padding: 2em;
         border: 3px solid;
         margin: 1px;
@@ -97,14 +129,13 @@ nav li a:hover {
 }
 
 #bb1 {
-        display: absolute;
-        justify-content: flex-start;
+        display: block;
         flex-direction: column;
 }
 
 .right {
         height: auto;
-        width: 35%;
+        width: 20%;
         padding: 2em;
         border: 3px solid;
         margin: 1px;
@@ -112,11 +143,27 @@ nav li a:hover {
 }
 
 #bb2 {
-        display: absolute;
-        justify-content: flex-end;
+        display: block;
         flex-direction: column;
 }
 
+.left article {
+  padding: 1rem;
+  border: 3px dashed red;
+  margin: 1.5rem 0 1rem;
+  box-sizing: border-box;
+}
+
+.right article {
+  padding: 1rem;
+  border: 3px dashed red;
+  margin: 1.5rem 0 1rem;
+  box-sizing: border-box;
+}
+
+.footer {
+  clear: both;
+}*/
 
 /* .content-box-1 {
         height: auto;
