@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  width: 100%;
+}
 
 /* Style the links inside Header */
 header {
@@ -125,12 +129,30 @@ main {
 }
 footer {
   clear: both;
+  text-align:center;
+  color: #ffffff;
   background-color: #525659;
+}
+
+#catlogo {
+  position: relative;
+  top: 5rem;
+}
+
+#footer-p {
+  position: relative;
+  top: 5rem;
+}
+
+#footer-nav1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .footer-nav li {
   padding: 0 5px 0 5px;
-  position: relative;
+  align-items: center;
   left: 11rem;
 }
 
@@ -147,12 +169,14 @@ footer {
 
 .footer-nav ul {
   list-style-type: none;
-  margin: 0;
+  display: flex;
+  top: 5rem;
+  justify-content: center;
   padding: 0;
   height: 50px;
-  overflow: hidden;
   background-color: inherit;
 }
+
 
 .footer-nav li {
   float: center;
@@ -171,106 +195,3 @@ footer {
 .footer-nav li a:hover {
   background-color: #111;
 }
-
-
-
-
-
-}
-/*.main {
-  width: 90%;
-  margin: 0 auto;
-  border: 1px solid red;
-}
-
-/*#wrapper {
-    margin: 0 auto;
-    width:80%;
-}*/
-
-/*.left {
-        height: auto;
-        width: 90%;
-        padding: 2em;
-        border: 3px solid;
-        margin: 1px;
-        float: left;
-}
-
-#bb1 {
-        display: block;
-        flex-direction: column;
-}
-
-.right {
-        height: auto;
-        width: 20%;
-        padding: 2em;
-        border: 3px solid;
-        margin: 1px;
-        float: right;
-}
-
-#bb2 {
-        display: block;
-        flex-direction: column;
-}
-
-.left article {
-  padding: 1rem;
-  border: 3px dashed red;
-  margin: 1.5rem 0 1rem;
-  box-sizing: border-box;
-}
-
-.right article {
-  padding: 1rem;
-  border: 3px dashed red;
-  margin: 1.5rem 0 1rem;
-  box-sizing: border-box;
-}
-
-.footer {
-  clear: both;
-}*/
-
-/* .content-box-1 {
-        height: auto;
-        width: 50%;
-        padding: 2em;
-        border: 3px solid;
-        margin: 1px;
-        float: left;
-}
-#border-box-1 {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-}
-
-.content-box-2 {
-        height: auto;
-        width: 20%;
-        padding: 2em;
-        border: 3px solid;
-        margin: 1px;
-        float: left;
-        position: relative;
-        top: 50px;
-}
-#border-box-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end
-} */
-
-
-
-/*.content-box {
-        height: 5em;
-        width: 5em;
-        padding: 4em;
-        border: 1em solid;
-        margin: 1em;
-        float: left;
-}*/
