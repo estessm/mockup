@@ -84,7 +84,6 @@ main {
   width: 80%;
   min-height: auto;
   margin: 2rem auto;
-  border: 1px solid red;
   overflow: hidden
 }
 
@@ -92,26 +91,22 @@ main {
   float: left;
   width: 60%;
   height: auto;
-  background-color: #F09A9D;
 }
 
 .right {
   float: right;
   width: 35%;
   height: auto;
-  background-color: #F5CF8E;
 }
 
 .left article {
   padding: 1rem;
-  border: 3px dashed red;
   margin: 1.5rem 0 1rem;
   box-sizing: border-box;
 }
 
 .right article {
   padding: 1rem;
-  border: 3px dashed red;
   margin: 1.5rem 0 1rem;
   box-sizing: border-box;
 }
@@ -144,13 +139,12 @@ footer {
   top: 5rem;
 }
 
-#footer-nav1 {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+.footer-nav-1 {
+  position: relative;
+  top: 5rem;
 }
 
-.footer-nav li {
+/*.footer-nav li {
   padding: 0 5px 0 5px;
   align-items: center;
   left: 11rem;
@@ -165,20 +159,28 @@ footer {
 
 .footer-nav li:last-child a:after{
     display: none;
-}
+}*/
 
-.footer-nav ul {
+.footer-nav-ul {
   list-style-type: none;
   display: flex;
-  top: 5rem;
   justify-content: center;
   padding: 0;
   height: 50px;
   background-color: inherit;
 }
 
+.footer-nav-li {
+  padding: 0 5px 0 5px;
+  position: relative;
+  left: 0rem;
+}
 
-.footer-nav li {
+.footer-nav-li a {
+  color: white;
+}
+
+/*.footer-nav li {
   float: center;
   display: block;
 }
@@ -191,7 +193,8 @@ footer {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 .footer-nav li a:hover {
   background-color: #111;
 }
+*/
