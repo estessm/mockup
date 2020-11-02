@@ -12,8 +12,8 @@ header h1 {
   color: white;
   position: absolute;
   left: 13rem;
-  top: 3rem;
-  font-size: 33.8148px;
+  top: 1rem;
+  font-size: 60px;
   font-family: sans-serif;
 }
 
@@ -22,8 +22,10 @@ header h2 {
   position: absolute;
   left: 13rem;
   top: 8rem;
-  font-size: 17.801px;
+  font-size: 25px;
   font-family: sans-serif;
+  font-style: italic;
+  line-height: 36px;
 }
 
 .header-img {
@@ -119,6 +121,16 @@ main {
   color: rgb(44, 154, 183);
 }
 
+#a2 {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: rgb(44, 154, 183);
+}
+
+em {
+  font-size: 25px;
+}
+
 
 .right article {
   padding: 1rem;
@@ -145,10 +157,7 @@ main {
   background-size: cover;
 }
 
-em {
-  font-size: 20px;
-  font: Arial, serif;
-}
+
 
 footer {
   clear: both;
