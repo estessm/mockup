@@ -86,6 +86,10 @@ main {
   overflow: hidden
 }
 
+.hide {
+  display: none;
+}
+
 .left {
   float: left;
   width: 60%;
@@ -129,7 +133,7 @@ footer {
   top: 6rem;
 }
 
-#footer-p {
+.footer-p {
   position: relative;
   top: 6rem;
 }
