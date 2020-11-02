@@ -76,14 +76,17 @@ nav li a {
 
 /* Change the link color to #111 (black) on hover */
 nav li a:hover {
-  background-color: #111;
+  background-color: Grey;
 }
 
 main {
   width: 80%;
   min-height: auto;
   margin: 2rem auto;
-  overflow: hidden
+  overflow: hidden;
+  line-height: 32px;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
 .hide {
@@ -108,10 +111,31 @@ main {
   box-sizing: border-box;
 }
 
+
+
+#a1 {
+  font-size: 24px;
+  font-family: sans-serif;
+  color: rgb(44, 154, 183);
+}
+
+
 .right article {
   padding: 1rem;
   margin: 1.5rem 0 1rem;
   box-sizing: border-box;
+}
+
+.body-link {
+  color: rgb(44, 154, 183);
+}
+
+.body-link:hover {
+  color: hotpink;
+}
+
+.body-link:active {
+  color: blue;
 }
 
 .footer-img {
@@ -119,6 +143,11 @@ main {
   height: 25rem;
   background: url(https://library.startlearninglabs.uw.edu/HTML100/04-mockup/footer-image.jpg);
   background-size: cover;
+}
+
+em {
+  font-size: 20px;
+  font: Arial, serif;
 }
 
 footer {
