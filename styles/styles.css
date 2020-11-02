@@ -8,7 +8,7 @@ header {
 header h1 {
   color: white;
   position: absolute;
-  left: 10rem;
+  left: 13rem;
   top: 3rem;
   font-size: 33.8148px;
   font-family: sans-serif;
@@ -17,7 +17,7 @@ header h1 {
 header h2 {
   color: white;
   position: absolute;
-  left: 10rem;
+  left: 13rem;
   top: 8rem;
   font-size: 17.801px;
   font-family: sans-serif;
@@ -36,7 +36,7 @@ header h2 {
 nav li {
   padding: 0 5px 0 5px;
   position: relative;
-  left: 122px;
+  left: 11rem;
 }
 
 nav li a:after{
@@ -117,12 +117,63 @@ main {
 
 
 
-
+.footer-img {
+  width: 100%;
+  height: 26rem;
+  background: url(https://library.startlearninglabs.uw.edu/HTML100/04-mockup/footer-image.jpg);
+  background-size: cover;
+}
 footer {
   clear: both;
-  height: 24rem;
   background-color: #525659;
 }
+
+.footer-nav li {
+  padding: 0 5px 0 5px;
+  position: relative;
+  left: 11rem;
+}
+
+.footer-nav li a:after{
+  content: " / ";
+  position: absolute;
+  right: 0;
+  top : 15px;
+}
+
+.footer-nav li:last-child a:after{
+    display: none;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.footer-nav li {
+  float: center;
+  display: block;
+}
+
+.footer-nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.footer-nav li a:hover {
+  background-color: #111;
+}
+
+
+
 
 
 }
