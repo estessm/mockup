@@ -6,6 +6,7 @@ body {
 header {
   background-color: rgb(44, 154, 183);
   height: 191px;
+  text-align: left;
 }
 
 header h1 {
@@ -28,6 +29,11 @@ header h2 {
   line-height: 36px;
 }
 
+.b-box {
+  width: 30rem;
+  height: 100px;
+}
+
 .header-img {
   width: 100%;
   height: 269px;
@@ -38,6 +44,10 @@ header h2 {
 
 
 /* Style the links inside the navigation bar */
+nav {
+  font-family: sans-serif;
+}
+
 nav li {
   padding: 0 5px 0 5px;
   position: relative;
@@ -99,12 +109,14 @@ main {
   float: left;
   width: 60%;
   height: auto;
+  text-align: left;
 }
 
 .right {
   float: right;
   width: 35%;
   height: auto;
+  text-align: left;
 }
 
 .left article {
@@ -155,6 +167,12 @@ em {
   height: 25rem;
   background: url(../images/footer-image.jpg);
   background-size: cover;
+}
+
+#cat-week {
+  text-align: left;
+  position: relative;
+  left: 36px;
 }
 
 
